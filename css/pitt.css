@@ -1,6 +1,20 @@
 tei-teiheader {
   display: none;
 }
+
 tei-p,tei-ab {
   display:block;
+}
+
+tei-reg {
+    display: none;
+}
+
+tei-lb::before {
+    white-space: pre;
+    content: '\A';
+};
+
+tei-unclear{
+    color: 'red';
 }
